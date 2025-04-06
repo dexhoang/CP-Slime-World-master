@@ -16,7 +16,9 @@ let config = {
         }
     },
     zoom: 2,
-    scene: [ Overworld ]
+    scene: [ Menu, Play ]
 }
 
 const game = new Phaser.Game(config)
+const gameCenterX = config.width/2
+const gameCenterY = config.height/2
